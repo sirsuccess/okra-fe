@@ -1,10 +1,11 @@
 
 import './index.scss';
+import DashboardLayout from '../../components/DashboardLayout';
 
 function TestTwo() {
   return (
     <div className="test-two">
-Test Two
+<DashboardLayout/>
     </div>
   );
 }

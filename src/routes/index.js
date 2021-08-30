@@ -18,7 +18,10 @@ function AppRouter() {
         <Route exact path="/test-1">
           <TestOne />
         </Route>
-        <Route exact path="/test-2">
+        <Route exact path="/dashboard">
+          <TestTwo />
+        </Route>
+        <Route exact path="/analytics">
           <TestTwo />
         </Route>
       </Switch>

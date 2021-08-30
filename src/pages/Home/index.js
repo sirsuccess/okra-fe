@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="home">
        <Link to="/test-1"><Button>Test 1</Button></Link>
-       <Link to="/test-2"><Button>Test 2</Button></Link>
+       <Link to="/dashboard"><Button>Test 2</Button></Link>
 
 
     </div>

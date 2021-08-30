@@ -1,0 +1,21 @@
+.layout {
+  &__content {
+    height: calc(100vh - 60px);
+    background-color: #98c210;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    &-main{
+        width: 100%;
+        h1{
+            text-align: center;
+            margin-top: 1em;
+            text-decoration: underline;
+        }
+        &-text{
+            text-align: center;
+        }
+    }
+  }
+}

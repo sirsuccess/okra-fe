@@ -1,0 +1,33 @@
+.sidebar {
+      width: 150px;
+      background-color: #006072;
+      height: 100%;
+      padding-top: 2em;
+      ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+          list-style: none;
+          .menu {
+            background-color: #006072;
+            width: 100% !important;
+            display: flex;
+            padding: 1em 0;
+            padding-left: 1em;
+            .menu__item {
+              margin-left: 1em;
+            }
+          }
+
+          .active {
+            background: #98c210;
+            width: 100%;
+            width: 100%;
+            padding: 1em 0;
+            padding-left: 1em;
+          }
+        }
+      }
+    }
+  
