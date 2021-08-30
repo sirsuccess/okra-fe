@@ -1,5 +1,4 @@
-import { Table, Button, Space } from "antd";
-import "antd/dist/antd.css";
+import { Table } from "antd";
 import React, { useState } from "react";
 import JSONData from "../../assets/data/recommendations-michael.json";
 
@@ -10,7 +9,6 @@ const TableComponent = () => {
   });
 
   const handleChange = (pagination, filters, sorter) => {
-    console.log("Various parameters", pagination, filters, sorter);
     setState({
       filteredInfo: filters,
       sortedInfo: sorter,
